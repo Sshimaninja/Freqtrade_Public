@@ -7,6 +7,12 @@ If this were a publicly maintained repo, I wouldn't allow that kidn of mess, but
 
 # Fear and Greed Index (FGI):
 
+## notes: 
+
+In order to use this, you must manually download historical FGI data for the db. 
+
+This indicator is backtest-friendly.
+
 I've written bots for trading for several years, and I think the biggest problem is lack of context with the world outside of the strategy itself. Data gathered from only the technical indicators operate in a vacuum. The Fear and Greed Indicator, though it is flawed in several ways as a reliable indicator, still has some information that I think is valuable, specifically a 'sentiment' indication, partially weighted by *user surveys* which I think is extremely unique and difficult to find without directed effort or funding.
 
 So, the most interesting parent indicator I have on here is the Fear and Greed Index daily controller. I've done some hyperopting with this and found that actually, it is useful as a shitcoin loss-protection device. 
