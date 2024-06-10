@@ -9,7 +9,7 @@ If this were a publicly maintained repo, I wouldn't allow that kidn of mess, but
 
 ## notes: 
 
-- FGI.py will give you a simple daily indicator that takes data from the maintainers of the actual FGI. 
+- FGI.py will give you a simple daily indicator that takes data from the maintainers of the actual FGI. You can't backtest this.
 
 - FGITest.py will give you the backtestable FGI indicator which uses all the stored data for testing. 
 
