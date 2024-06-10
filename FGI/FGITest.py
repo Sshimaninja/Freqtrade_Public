@@ -1,5 +1,5 @@
 from pandas import DataFrame
-from FreqCtrlBTC import YOURSTRATEGY
+from YOURSTRATEGY import YOURSTRATEGY
 
 
 class FGITest(YOURSTRATEGY):
