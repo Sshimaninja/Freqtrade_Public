@@ -33,11 +33,12 @@ There's also a 'stoploss' style instant sell for any in-process trades at somewh
 
 ## EI3FGI:
 
-I used the EI3v2 strategy from [Freqtrade Strategy Ninja ](https://strat.ninja/) for signals, and I applied the FGI indicator to it for testing and hyperopting. 
+I used the EI3v2 (*original author unknown) strategy from [Freqtrade Strategy Ninja ](https://strat.ninja/) for signals, and I applied the FGI indicator to it for testing and hyperopting. 
 
 ## EI3FGIDCA: 
 
 I wrote a DCA strategy that inherits a parent strategy, which simulates a full order book before allowing trades to open. 
 
 The reason I did this is because backtest results were wildly optimistic because the hyperopt could seriously over-commit the order book, or make it so that a single trade opened with the rest of the position_adjustment trades far below 100% of the price range.
+
 
