@@ -1,9 +1,6 @@
 # Indicators, Freqtrade strategies, improvements on existing strategies, helper scripts:
 
-I ususally have one main file for each strategy that works, and several copies that I'm experimenting with. 
-
-If this were a publicly maintained repo, I wouldn't allow that kidn of mess, but this is only up here to showcase my ability to work with Python and develop finance trading strategies based on technical indicators, and to create parent classes that control those strategies with higher timeframe/external data sources. 
-
+This is a repo of any ideas I've had about trading strategy that I deem original to the Freqtrade package/platform, or improvements upon existing scripts. 
 
 # Fear and Greed Index (FGI):
 
@@ -54,6 +51,7 @@ The reason I did this is because backtest results were wildly optimistic because
 Plug in your preferred settings and your simulated trade numbers, and see what your spread looks like. Very simple but I didn't find a shake and bake solution so I made my own. Let me know if you like it!
 
 ### Donations:
+
 Donations:
 
 Bitcoin: 
