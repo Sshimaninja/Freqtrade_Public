@@ -13,15 +13,16 @@ Step 2: In the example FGIHMABTCCtrl.py the FGI indicator and database call is i
 
 ## Notes: 
 
-- FGI.py will give you a simple daily indicator that takes data from the maintainers of the actual FGI. You can't backtest this.
 
-- FGITest.py will give you the backtestable FGI indicator which uses all the stored data for testing. 
-
-In order to use this, you must manually download historical FGI data for the db (see example above). 
+In order to use this, you must manually download historical FGI data for the db. 
 
 I've written bots for trading for several years, and I think the biggest problem is lack of context with the world outside of the strategy itself. Data gathered from only the technical indicators operate in a vacuum. The Fear and Greed Indicator, though it is flawed in several ways as a reliable indicator, still has some information that I think is valuable, specifically a 'sentiment' indication, partially weighted by *user surveys* which I think is extremely unique and difficult to find without directed effort or funding.
 
 So, the most interesting parent indicator I have on here is the Fear and Greed Index daily controller. I've done some hyperopting with this and found that actually, it is useful as a shitcoin loss-protection device. 
+
+- FGI.py will give you a simple daily indicator that takes data from the maintainers of the actual FGI. You can't backtest this.
+
+- FGITest.py will give you the backtestable FGI indicator which uses all the stored data for testing. 
 
 The only other indicator I'd like to try is a Twitter (presently 'X') sentiment indicator, which shouldn't be too difficult but will take some time to implement. 
 
