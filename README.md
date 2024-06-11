@@ -53,4 +53,11 @@ The reason I did this is because backtest results were wildly optimistic because
 
 Plug in your preferred settings and your simulated trade numbers, and see what your spread looks like. Very simple but I didn't find a shake and bake solution so I made my own. Let me know if you like it!
 
+### Donations:
+Donations:
 
+Bitcoin: 
+bc1q2s096sa6h63uqqlqu68g62xa8hqkasj9jrthqw 
+
+ERC20: 
+0xd4268778C7a462FDa525DaB2A113CcFe46fabdE2
