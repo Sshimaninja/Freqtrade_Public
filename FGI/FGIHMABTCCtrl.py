@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 
 
 class FGIHMABTCCtrl(YOURSTRATEGY):
-    INTERFACE_VERSION = 2
+    INTERFACE_VERSION = 3
     buy_params = {
         "hma": 20,
         "hma_offset": 10,

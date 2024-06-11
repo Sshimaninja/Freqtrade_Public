@@ -9,7 +9,7 @@ If this were a publicly maintained repo, I wouldn't allow that kidn of mess, but
 
 ### Example:
 
-Step 1: If you want to backtest anything, you need a database. FGIDatabase.py calls that FGI data for you and puts it in a .csv file. The data is called from alternative.me, who are the original authors of the Bitcoin Fear and Greed Index, which calls data from inflows, outflows, and among other things user surveys. for you.
+Step 1: If you want to backtest anything, you need a database. FGIDatabase.py calls that FGI data for you and puts it in a .csv file. The data is called from alternative.me, who are the original authors of the Bitcoin Fear and Greed Index, which calls data from inflows, outflows, and among other things user surveys.
 
 
 Step 2: In the example FGIHMABTCCtrl.py the FGI indicator and database call is integrated into the sample HMA offset strategy, controlling the bot using BTC Fear and Greed Index on the 1D timeframe by adding an infomrative timeframe column with the indicator, adding the FGI dailiy data to it, and then controlling the populate_buy/sell_trend functions.
